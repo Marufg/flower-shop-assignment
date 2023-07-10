@@ -1,0 +1,22 @@
+.header{
+    height: 300px;
+    background-image: url('marketer\ maruf2.jpg');
+    background-size: 300px;
+}
+h3{
+    color: blueviolet;
+    font-style: italic;
+}
+.blog{
+    border: 10px solid;
+}
+.blog{
+    margin: 50px;
+    border: 10px solid red;
+    box-shadow: 30px 30px 50px;
+}
+
+.third{
+    display: none;
+    visibility: hidden;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mixed selectors</title>
+    <style>
+        *{
+            margin: 2;
+        }
+        p{
+        color: chartreuse;
+        }
+        #fifth{
+            text-align: center;
+        }
+        #fifth, li{
+            color: brown;
+        }
+        #fifth{
+            font-size: xx-large;
+        }
+        .red{
+            background-color: red;
+            width: 40%;
+        }
+        .italic{
+            font-style: italic;
+        }
+        .bold{
+            font-weight: bolder;
+        }
+        input{
+            font-size: 30px;
+        }
+        input[type="password"]{
+            color: crimson;
+        }
+        .css{
+            color: blue;
+        }
+        .blog{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h2>explore mixed selectors</h2>
+    <p class="red">my <span class="css">first css</span></p>
+    <p>my second css</p>
+    <p>my third css</p>
+    <p>my forth css</p>
+    <p id="fifth">my fifth css</p>
+    <p>my sixth css</p>
+    <p class="red italic">my seventh css</p>
+    <ol>
+        <li>element selector</li>
+        <li>id selector</li>
+        <li class="bold">class selector</li>
+        <li>universal</li>
+    </ul>
+    <form action="">
+        <input type="text">
+        <br>
+        <input type="password" name="" id="">
+        <br>
+        <input type="button" value="">
+    </form>
+    <div class="blog">
+        <h3>my blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic rerum cumque aliquid facilis, ipsum molestias quod tempore incidunt vero ex ipsam ducimus nostrum tempora velit maiores minus ut amet cupiditate.</p>
+    </div>
+</body>
+</html>
